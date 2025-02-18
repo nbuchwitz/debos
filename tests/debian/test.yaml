@@ -5,7 +5,7 @@ architecture: {{$architecture}}
 
 actions:
   - action: {{ $tool }}
-    suite: bullseye
+    suite: bookworm
     variant: minbase
     merged-usr: true
 
